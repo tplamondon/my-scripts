@@ -31,3 +31,12 @@ Run
 ```
 MigrateRepo.bat FROM_REPO TO_REPO
 ```
+
+# resetBg3Mods.bat
+A way to reset most things on [Baldurs Gate 3](https://store.steampowered.com/app/1086940/Baldurs_Gate_3/) for modding so you have a fresh base to work with.
+### Usage
+Run
+```
+resetBg3Mods.bat
+```
+After running this, verify game files. Then run the game once and I think you might have to start a new campaign at least once to generate all the required config files for the game.
