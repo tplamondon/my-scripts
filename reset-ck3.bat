@@ -1,0 +1,1 @@
+rmdir /s /q "C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310"
