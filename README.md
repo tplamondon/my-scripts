@@ -40,3 +40,15 @@ Run
 resetBg3Mods.bat
 ```
 After running this, verify game files. Then run the game once and I think you might have to start a new campaign at least once to generate all the required config files for the game.
+
+# removeUs.bat
+Quickly remove the English (US) keyboard from windows list of languages. Certain games like Team Fortress 2 automatically add this keyboard when you run them and it can get really annoying.
+
+Original script by [Luis Ferrao](https://superuser.com/users/168632/luis-ferrao) from [superuser](https://superuser.com/a/1094953). 
+
+[CC BY-SA 4.0 Licence](https://creativecommons.org/licenses/by-sa/4.0/) with changes made to always point to C:/scripts.
+### Usage
+Ensure Remove-en-US.xml is in `C:/scripts` and then run 
+```
+removeUS.bat
+```
