@@ -45,7 +45,11 @@ MigrateRepo.bat FROM_REPO TO_REPO
 # resetBg3Mods.bat
 A way to reset most things on [Baldurs Gate 3](https://store.steampowered.com/app/1086940/Baldurs_Gate_3/) for modding so you have a fresh base to work with.
 ### Usage
-Run
+Adjust the batch file to change the `SET bg3Folder` line to your install folder.
+
+Example: `SET bg3Folder="C:\Program Files (x86)\Steam\steamapps\common\Baldurs Gate 3"`
+
+Then run
 ```
 resetBg3Mods.bat
 ```
