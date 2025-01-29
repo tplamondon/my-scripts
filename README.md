@@ -15,7 +15,7 @@ Then verify game cache in steam
 # yt-mp3.bat
 A batch file to use yt-dlp to download a video as a mp3 file with an embedded thumbnail without having to remember remember all of the arguments you need to pass
 ### requirements
-yt-dlp + a config file. Read that repo's instructions
+[yt-dlp](https://github.com/yt-dlp/yt-dlp) + a config file. Read the yt-dlp instructions for creating a config file
 ### Usage
 Run
 ```
