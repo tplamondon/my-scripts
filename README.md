@@ -1,14 +1,24 @@
 # my-scripts
-Personal batch scripts or other scripts I use for various things
+Personal batch scripts or other scripts I use for various things.
 
-# reset-hoi4.bat
-Quick way to delete all mods for the Steam game [Hearts of Iron 4](https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/). This assumes the game is on the C drive from your hard drive.
+You can run these directly through CMD. To make it easier, I suggest putting them in C:\scripts and adding that folder to your windows path.
 
-The reason is when playing with friends, you'll occasionally run into issues where your checksum doesn't match even if you have identical mods, because apparently your mods might have minor version differences steam didn't pickup. This means you can't join each other's multiplayer matches. Using this forces you to redownload a french version of each mod so they should match.
+# reset-hoi4.bat reset-vic3.bat reset-ck3.bat
+Quick way to delete all mods for the following Steam games
+
+- reset-hoi4.bat: [Hearts of Iron 4](https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/).
+- reset-ck3.bat: [Crusader Kings 3](https://store.steampowered.com/app/1158310/Crusader_Kings_III/)
+- reset-vic3.bat [Victoria 3](https://store.steampowered.com/app/529340/Victoria_3/)
+
+**This assumes the game is on the C drive from your hard drive.**
+
+The reason for these batch scripts is because when playing with friends, you'll occasionally run into issues where your checksum doesn't match even if you have identical mods. Apparently your mods might have minor version differences steam didn't pickup. This means you can't join each other's multiplayer matches. Using these scripts forces you to redownload a fresh version of each mod so they should match.
 ### Usage
-Run
+Run one of the following batch files
 ```
 reset-hoi4.bat
+reset-ck3.bat
+reset-vic3.bat
 ```
 Then verify game cache in steam
 
